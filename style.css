@@ -1,11 +1,34 @@
 .box {
-    min-height: 50px;
-    padding: 5px;
-    margin: 5px;
+    min-height: 500px;
+    min-width: 650px;
+    margin: 20px;
     font-weight: 800;
-    color: #fff;
+    padding: 20px;
+    background-color: rgb(247, 247, 247)
   }
-  
+
+.smallbox {
+  min-height: 460px;
+  min-width: 300px;
+  margin: 20px;
+  font-weight: 800;
+  padding: 20px;
+  background-color: rgb(247, 247, 247)
+}
+
+
+.box-title {
+  padding-bottom: 1px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid rgba(149, 235, 223, 0.856);
+  color: rgba(27, 136, 121, 0.993);
+}
+
+
+
+  .gray {
+    background: darkgray;
+  }
   .skyblue {
     background: deepskyblue;
   }
@@ -20,7 +43,7 @@
 
 
   h1 {
-    color: blue;
+    color: rgba(149, 235, 223, 0.856);
   }
   
   .purple {
@@ -31,8 +54,9 @@
     color: red;
   }
   
-  #big-font {
+  .big-font {
     font-size: 40px;
+    color: rgba(149, 235, 223, 0.856)
   }
   
   #bold-font {
